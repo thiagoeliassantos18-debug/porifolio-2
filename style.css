@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+}
+main{
+    background-color: antiquewhite;
+}
+a p {
+    background-color: aliceblue;
+    width: 30px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px auto;
+    transition: 0.5 all;
+}
+a p:hover{
+    background-color: blueviolet;
+    transform: scale(1.5);
+    transform: rotate(45deg);
+    border-style: solid;
+}
